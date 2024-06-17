@@ -19,32 +19,3 @@ Welcome to the Chat App with Flutter, Dart Frog and WebSocket project! This proj
 | Chat Room Screen | | |
 
 
-## Getting Started
-
-To get started with the project, ensure you have Dart, Flutter and the dart_frog CLI set up on your local machine.
-
-1. **Navigate to Project Directory**:
-    ```bash
-    cd <project name>
-    ```
-
-2. **Install Dependencies**:
-    ```bash
-    flutter pub get
-    ```
-
-3. **Start the Dart Frog server locally**:
-    ```bash
-    cd <project name>/api
-    # Install the dart_frog cli from pub.dev
-    dart pub global activate dart_frog_cli
-    # Start the server on localhost
-    dart_frog dev
-    ```
-
-4. **Run the App**:
-    ```bash
-    flutter run
-    ```
-
-
